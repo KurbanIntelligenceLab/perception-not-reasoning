@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="Perception, Not Reasoning, Limits Visual Theory of Mind. A controlled study of perceptual bottlenecks across seven models and three benchmark settings. NeurIPS (E&amp;D) 2026." name="description"/>
+<meta content="theory of mind, visual reasoning, perception, benchmark, NeurIPS (E&amp;D) 2026" name="keywords"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Perception, Not Reasoning, Limits Visual Theory of Mind</title>
+<link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+<link href="https://kurbanintelligencelab.github.io/perception-not-reasoning/" rel="canonical"/><meta content="Perception, Not Reasoning, Limits Visual Theory of Mind" property="og:title"/><meta content="https://kurbanintelligencelab.github.io/perception-not-reasoning/assets/teaser.png" property="og:image"/><meta content="https://kurbanintelligencelab.github.io/perception-not-reasoning/" property="og:url"/></head>
+<body>
+<section class="hero publication-hero">
+<div class="hero-body">
+<div class="container is-max-desktop">
+<div class="columns is-centered">
+<div class="column has-text-centered">
+<h1 class="title is-1 publication-title">Perception, Not Reasoning, Limits Visual Theory of Mind</h1>
+<div class="is-size-5 publication-authors"><span class="author-block"><a href="https://bmrayan.com/" rel="noopener" target="_blank">Mohamed Rayan Barhdadi</a><sup>1</sup>, </span>
+<span class="author-block"><a href="https://talalwasim.github.io/" rel="noopener" target="_blank">Syed Talal Wasim</a><sup>2,3</sup>, </span>
+<span class="author-block"><a href="https://pages.iai.uni-bonn.de/gall_juergen/" rel="noopener" target="_blank">Juergen Gall</a><sup>2,3</sup>, </span>
+<span class="author-block"><a href="https://scholar.google.com/citations?user=THi_ypMAAAAJ" rel="noopener" target="_blank">Erchin Serpedin</a><sup>1</sup>, </span>
+<span class="author-block"><a href="https://www.hasankurban.com/" rel="noopener" target="_blank">Hasan Kurban</a><sup>4</sup></span></div>
+<div class="is-size-6 publication-authors" style="margin-top: 0.2rem; font-weight: 600;"><span class="author-block"><sup>1</sup>Texas A&amp;M University   <sup>2</sup>University of Bonn   <sup>3</sup>Lamarr Institute for Machine Learning and Artificial Intelligence <br/><sup>4</sup>Hamad Bin Khalifa University</span></div>
+<div class="is-size-5 publication-authors" style="margin-top: 0.75rem;">
+<span class="author-block" style="color: #c0392b; font-weight: 600;">Accepted to NeurIPS (E&amp;D) 2026 and Oral at the BabyVLM Workshop 🎉</span>
+</div>
+<div class="column has-text-centered">
+<div class="publication-links"><span class="link-block"><a class="external-link button is-normal is-rounded is-dark" href="https://github.com/KurbanIntelligenceLab/perception-not-reasoning#paper" rel="noopener" target="_blank"><span class="icon"><i aria-hidden="true" class="fas fa-file-pdf"></i></span><span>Paper</span></a></span>
+<span class="link-block"><a class="external-link button is-normal is-rounded is-dark" href="https://github.com/KurbanIntelligenceLab/perception-not-reasoning" rel="noopener" target="_blank"><span class="icon"><i aria-hidden="true" class="fab fa-github"></i></span><span>Code</span></a></span>
+<span class="link-block"><a class="external-link button is-normal is-rounded is-dark" href="https://huggingface.co/datasets/bmrayan/perception-not-reasoning" rel="noopener" target="_blank"><span class="icon"><i aria-hidden="true" class="fas fa-download"></i></span><span>Dataset</span></a></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section" style="background: #fff; padding-top: 3rem; padding-bottom: 1rem;">
+<div class="container is-max-desktop">
+<div class="columns is-centered has-text-centered">
+<div class="column is-full-width">
+<h2 class="title is-3">Abstract</h2>
+</div>
+</div>
+<div class="content has-text-justified"><p>Vision-language models pass text-based false-belief probes at near-human levels but drop by twenty or more percentage points the moment the same problem is conveyed visually. The consensus diagnosis is conceptual, prescribing new belief-reasoning modules. We argue the bottleneck is perceptual: not what the model cannot reason about, but what it cannot see. We propose a five-condition dissociation protocol that holds the reasoning task constant while varying perceptual fidelity from visual only to text only, and quantify the result with the Perceptual Contribution Ratio, a dose-response metric measuring how much of the visual-to-text gap a scaffold of given fidelity closes. Instantiated on abstract 2D panels in the Heider-Simmel tradition and naturalistic 3D game scenes from MuMA-ToM and MindPower across seven VLMs and roughly 147,000 API calls, ground-truth scaffolds close the gap on every regime, matching or exceeding the text-only ceiling on abstract panels and MuMA-ToM. Automatic parsers, including frontier VLMs as zero-shot scene describers, fail. The dominant visual-only error mode is reality bias (60% of false-belief failures): models report where an object currently is rather than where an absent agent believes it to be, the signature of a front-end that fails to encode who was present when. The route to better visual social reasoning runs through perception, not new reasoning modules.</p></div>
+</div>
+</section>
+<section class="hero teaser">
+<div class="container is-max-desktop">
+<div class="hero-body">
+<figure style="margin-top: 0;"><a href="assets/teaser.png"><img alt="The perceptual bottleneck hypothesis and results across abstract and naturalistic theory-of-mind benchmarks." height="10118" src="assets/teaser.png" style="width: 100%; height: auto;" width="25726"/></a></figure>
+</div>
+</div>
+</section>
+<section class="section" id="results" style="background: #fafafa;">
+<div class="container is-max-desktop">
+<h2 class="title is-3 has-text-centered">Results</h2>
+<div class="content"><p>Full scaffolds exceed text-only scores on abstract false-belief tasks and MuMA-ToM. On MindPower, they improve scores but remain below text-only input. Automatic descriptions produce smaller gains or lower scores.</p></div>
+<figure class="paper-figure"><div class="results-explorer" id="results-explorer">
+<div class="dataset-tabs" role="group" aria-label="Dataset">
+<button type="button" data-dataset="muma" aria-pressed="true">MuMA-ToM</button>
+<button type="button" data-dataset="mindpower" aria-pressed="false">MindPower</button>
+<button type="button" data-dataset="abstract" aria-pressed="false">Abstract false belief</button>
+</div>
+<p aria-live="polite" class="chart-summary" id="chart-summary"></p><div aria-label="Condition scores" id="interactive-bars"></div>
+<details class="chart-table"><summary>View all reported values</summary><div class="table-container"><table class="table is-fullwidth"><caption>Seven-model means (%)</caption><thead><tr><th>Setting</th><th>A</th><th>B<sub>a</sub></th><th>B<sub>p</sub></th><th>B<sub>f</sub></th><th>C</th></tr></thead><tbody><tr><th>MuMA-ToM</th><td>44.7</td><td>47.4</td><td>Not defined</td><td>58.1</td><td>54.0</td></tr><tr><th>MindPower</th><td>19.1</td><td>18.3</td><td>24.1</td><td>27.3</td><td>33.0</td></tr><tr><th>Abstract false belief</th><td>73.9</td><td>75.7</td><td>88.8</td><td>98.4</td><td>94.5</td></tr></tbody></table></div></details>
+<noscript><p>Enable JavaScript to explore the chart, or open the table above to read every value.</p></noscript></div><figcaption>Seven-model means, plotted from the rounded values reported in Tables 3–5 and Section 4. A: visual-only; B<sub>a</sub>: automatic; B<sub>p</sub>: perceptual; B<sub>f</sub>: full scaffold; C: text-only. MuMA-ToM has no B<sub>p</sub> condition. MindPower uses a scenario-weighted layer-mean score; scores should be compared within each setting. <a href="https://github.com/KurbanIntelligenceLab/perception-not-reasoning#paper">Results in the paper.</a></figcaption></figure>
+<div class="content" style="margin-top: 1.5rem;"><p>MindPower’s B<sub>f</sub> includes the reference reasoning chain. B<sub>p</sub> uses perceptual information and raises the mean score from 19.1 to 24.1.</p></div>
+</div>
+</section><section class="section" id="naturalistic">
+<div class="container is-max-desktop">
+<h2 class="title is-3 has-text-centered">Naturalistic Benchmarks</h2>
+<div class="content"><p>MuMA-ToM contains household videos. MindPower contains embodied scenarios in ThreeDWorld and VirtualHome.</p></div>
+<figure class="paper-figure"><a href="assets/naturalistic-benchmarks.png"><img alt="MuMA-ToM household scenes in the top row and MindPower embodied scenarios in the bottom row." height="791" loading="lazy" src="assets/naturalistic-benchmarks.png" width="2000"/></a><figcaption>Representative naturalistic inputs: MuMA-ToM above, MindPower below. Evaluations use eight frames per MuMA-ToM video and twelve-frame storyboards per MindPower scenario. <a href="https://github.com/KurbanIntelligenceLab/perception-not-reasoning#paper">Figure 3 in the paper.</a></figcaption></figure>
+</div>
+</section>
+<section class="section" id="BibTeX" style="padding-top: 0;">
+<div class="container is-max-desktop content">
+<h2 class="title">Cite</h2>
+<div style="position: relative;">
+<button class="copy-bib-btn" onclick="copyBib()">Copy</button>
+<pre><code id="bibtex-code">@inproceedings{barhdadi2026perception,
+  title     = {Perception, Not Reasoning, Limits Visual Theory of Mind},
+  author    = {Barhdadi, Mohamed Rayan and Wasim, Syed Talal and Gall, Juergen
+               and Serpedin, Erchin and Kurban, Hasan},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year      = {2026}
+}</code></pre>
+</div>
+</div>
+</section>
+<div class="footer"><p style="font-size: 13px; color: gray;"><a href="https://github.com/KurbanIntelligenceLab/perception-not-reasoning#paper">Paper</a>  ·  <a href="https://github.com/KurbanIntelligenceLab/perception-not-reasoning">Code</a>  ·  <a href="https://huggingface.co/datasets/bmrayan/perception-not-reasoning">Dataset</a></p>
+<p style="font-size: 12px; color: #aaa; margin-top: 8px;">Perception, Not Reasoning  ·  Page template from <a href="https://github.com/KurbanIntelligenceLab/iris-bench" style="color:#aaa;">IRIS-Bench</a>, inspired by <a href="https://glab-caltech.github.io/steer3d/" style="color:#aaa;">Steer3D</a>.</p></div>
+<script src="app.js"></script>
+</body>
+</html>

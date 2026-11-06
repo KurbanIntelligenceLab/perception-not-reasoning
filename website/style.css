@@ -1,0 +1,211 @@
+body {
+      font-family: 'Noto Sans', sans-serif;
+    }
+
+    .publication-title {
+      font-family: 'Google Sans', sans-serif;
+    }
+
+    .publication-authors {
+      font-family: 'Google Sans', sans-serif;
+    }
+
+    .publication-authors a {
+      color: hsl(204, 86%, 53%);
+    }
+
+    .publication-authors a:hover {
+      text-decoration: underline;
+    }
+
+    .publication-authors sup {
+      font-weight: 700;
+    }
+
+    .publication-hero .hero-body {
+      padding-bottom: 0;
+    }
+
+    .teaser .hero-body {
+      padding-top: 1rem;
+    }
+
+    .huggingface-logo {
+      width: 1.25rem;
+      height: 1.25rem;
+      object-fit: contain;
+    }
+
+    .arxiv-logo {
+      width: 1.15rem;
+      height: 1.3rem;
+      object-fit: contain;
+    }
+
+    .footer {
+      background-color: #ffffff;
+      text-align: center;
+      padding: 1.5rem;
+    }
+
+    
+    .gif-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-top: 24px;
+    }
+
+    .gif-cell {
+      text-align: center;
+      border: 1px solid #e8e8e8;
+      border-radius: 10px;
+      overflow: hidden;
+      background: #fafafa;
+    }
+
+    .gif-cell img {
+      width: 100%;
+      height: 130px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .gif-cell .gif-caption {
+      font-size: 12px;
+      font-weight: 600;
+      color: #555;
+      padding: 7px 4px;
+      background: #fff;
+      letter-spacing: 0.02em;
+    }
+
+    @media (max-width: 768px) {
+      .gif-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    
+    .stat-boxes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 16px;
+      margin-bottom: 2rem;
+    }
+
+    .stat-box {
+      text-align: center;
+      border: 2px solid #dbdbdb;
+      border-radius: 10px;
+      padding: 18px 28px;
+      min-width: 120px;
+    }
+
+    .stat-box .stat-num {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #3273dc;
+      line-height: 1;
+    }
+
+    .stat-box .stat-label {
+      font-size: 13px;
+      color: #777;
+      margin-top: 4px;
+    }
+
+    
+    .contrib-cards {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 1.5rem;
+    }
+
+    .contrib-card {
+      border: 1px solid #e0e0e0;
+      border-radius: 10px;
+      padding: 20px;
+      background: #fff;
+    }
+
+    .contrib-card h4 {
+      font-weight: 700;
+      font-size: 15px;
+      margin-bottom: 6px;
+      color: #222;
+    }
+
+    .contrib-card p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    @media (max-width: 768px) {
+      .contrib-cards {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    
+    #BibTeX pre {
+      background: #f5f5f5;
+      border-radius: 8px;
+      padding: 1.5rem;
+      font-size: 13px;
+      overflow-x: auto;
+      position: relative;
+    }
+
+    .copy-bib-btn {
+      position: absolute;
+      top: 10px;
+      right: 12px;
+      background: #dbdbdb;
+      border: none;
+      border-radius: 6px;
+      font-size: 12px;
+      padding: 4px 12px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .copy-bib-btn:hover {
+      background: #3273dc;
+      color: #fff;
+    }
+
+    
+    .dynamics-table {
+      font-size: 14.5px;
+    }
+
+    .dynamics-table td:first-child {
+      font-family: 'Courier New', monospace;
+      font-size: 13px;
+      color: #6a4fc3;
+      white-space: nowrap;
+    }
+
+.paper-figure { margin: 2rem 0 0; }
+.paper-figure img { display: block; width: 100%; height: auto; }
+.paper-figure figcaption { margin-top: 1rem; font-size: 0.9rem; line-height: 1.6; color: #555; }
+.pathways-figure { max-width: 620px; margin-left: auto; margin-right: auto; }
+
+.results-explorer { background: #fff; padding: 24px; }
+.chart-summary { color: #555; font-size: 13px; margin: 0 0 8px; }
+#interactive-bars svg { display: block; width: 100%; height: auto; font-family: inherit; }
+.plot-tick { fill: #666; font-size: 12px; }
+.plot-value { fill: #333; font-size: 14px; font-weight: 600; }
+.plot-symbol { fill: #333; font-size: 15px; font-style: italic; }
+.plot-label { fill: #555; font-size: 12px; }
+.chart-table summary { cursor: pointer; color: #555; font-size: 13px; margin-top: 12px; }
+.chart-table table { margin-top: 16px; font-size: 13px; }
+@media (max-width: 600px) { .results-explorer { padding: 12px 0; } #interactive-bars { overflow-x: auto; } #interactive-bars svg { min-width: 520px; } }
+
+.dataset-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; border-bottom: 1px solid #dbdbdb; }
+.dataset-tabs button { padding: 10px 12px; border: 0; border-bottom: 2px solid transparent; background: transparent; color: #555; font: inherit; cursor: pointer; }
+.dataset-tabs button[aria-pressed="true"] { border-bottom-color: #555; color: #222; }
+.dataset-tabs button:focus-visible { outline: 2px solid #3273dc; outline-offset: 2px; }
